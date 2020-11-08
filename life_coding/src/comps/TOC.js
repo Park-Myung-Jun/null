@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 class TOC extends Component {
     render() {
+        console.log("TOC rendor")
         var list = [];
         var data = this.props.data;
         var i = 0;
